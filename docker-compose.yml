@@ -13,5 +13,6 @@ services:
       INIT_MEMORY: 1G
       MAX_MEMORY: 4G
       TYPE: VANILLA
+      TZ: America/New_York
     volumes:
       - ./data:/data
